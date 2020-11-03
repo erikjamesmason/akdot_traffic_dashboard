@@ -47,7 +47,7 @@ def return_figures():
               mode = 'lines',
               name = link,
                   connectgaps=True,
-                  hoverinfo="Traffic_Link_ID", hovertext=["variable", "value"]
+                  hoverinfo="all", hovertext=["variable", "value"]
               )
           )
     
